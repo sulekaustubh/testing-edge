@@ -1,8 +1,8 @@
 import { NextRequest, NextResponse } from 'next/server';
 
 export const config = {
-    runtime: 'edge'
-}
+    runtime: 'edge',
+};
 
 const handler = (req: NextRequest) => {
     return NextResponse.json({
@@ -11,4 +11,3 @@ const handler = (req: NextRequest) => {
 };
 
 export default handler;
-clea

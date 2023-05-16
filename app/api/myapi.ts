@@ -5,20 +5,9 @@ export const config = {
 };
 
 const handler = (req: NextRequest) => {
-    return NextResponse.json([
-        {
-            name: 'Heyadgasdyy',
-        },
-        {
-            name: 'hfgdbsdfb',
-        },
-        {
-            name: '2346',
-        },
-        {
-            name: '4tu3whtrgbfv',
-        },
-    ]);
+    return NextResponse.json({
+        name: 'Heyadgasdyy',
+    });
 };
 
 export default handler;

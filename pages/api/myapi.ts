@@ -5,9 +5,17 @@ export const config = {
 };
 
 const handler = (req: NextRequest) => {
-    return NextResponse.json({
-        name: 'Heyyy',
-    });
+    return NextResponse.json([
+        {
+            name: 'Heyy76ygvy',
+        },
+        {
+            name: '56132',
+        },
+        {
+            name: 'rftyvgbuyn',
+        },
+    ]);
 };
 
 export default handler;

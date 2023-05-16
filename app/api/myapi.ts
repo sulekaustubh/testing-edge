@@ -7,13 +7,16 @@ export const config = {
 const handler = (req: NextRequest) => {
     return NextResponse.json([
         {
-            name: 'Heyyy',
+            name: 'Heyadgasdyy',
         },
         {
-            name: 'hiii',
+            name: 'hfgdbsdfb',
         },
         {
-            name: 'hellooo',
+            name: '2346',
+        },
+        {
+            name: '4tu3whtrgbfv',
         },
     ]);
 };

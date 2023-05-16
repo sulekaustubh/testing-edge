@@ -9,6 +9,12 @@ const handler = (req: NextRequest) => {
         {
             name: 'Heyyy',
         },
+        {
+            name: 'hiii',
+        },
+        {
+            name: 'hellooo',
+        },
     ]);
 };
 
